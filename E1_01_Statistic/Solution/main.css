@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main>i {
+    position: relative;
+    margin-left: calc(100% - 1em);
+    margin-top: 0.2em;
+    font-size: 2em;
+    color: #fff;
+}
+
+.main {
+    background: linear-gradient(rgba(45, 91, 216, 0.7), rgba(45, 91, 216, 0.7)), url('../Requirements-and-Resources/images/image.jpg') no-repeat;
+    width: 70%;
+    margin: 10% auto;
+}
+
+.main img {
+    width: 100%;
+}
+
+.main .section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main .section .card {
+    margin: 100px 0;
+    display: grid;
+}
+
+.main .section .card i {
+    color: #EC8421;
+    font-size: 27px;
+    margin: 0 auto;
+}
+
+.main .section .card h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main .section .card p {
+    margin: 7px 0;
+    color: #fff;
+    text-align: center;
+}
